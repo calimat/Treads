@@ -31,6 +31,7 @@
 		F6244208221CE3B600409DE9 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F62441F6221CE3B600409DE9 /* Montserrat-MediumItalic.ttf */; };
 		F6244209221CE3B600409DE9 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F62441F7221CE3B600409DE9 /* Montserrat-Medium.ttf */; };
 		F624420A221CE3B600409DE9 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F62441F8221CE3B600409DE9 /* Montserrat-ExtraBoldItalic.ttf */; };
+		F624420C22235EDA00409DE9 /* CurrentRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F624420B22235EDA00409DE9 /* CurrentRunVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		F62441F6221CE3B600409DE9 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
 		F62441F7221CE3B600409DE9 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		F62441F8221CE3B600409DE9 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		F624420B22235EDA00409DE9 /* CurrentRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRunVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			children = (
 				F62441D1221CE17100409DE9 /* RunLogVC.swift */,
 				F62441CF221CE17100409DE9 /* BeginRunVC.swift */,
+				F624420B22235EDA00409DE9 /* CurrentRunVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				F62441D2221CE17100409DE9 /* RunLogVC.swift in Sources */,
 				F62441CE221CE17100409DE9 /* AppDelegate.swift in Sources */,
+				F624420C22235EDA00409DE9 /* CurrentRunVC.swift in Sources */,
 				F62441D0221CE17100409DE9 /* BeginRunVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

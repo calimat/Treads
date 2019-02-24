@@ -85,10 +85,10 @@
             </objects>
             <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
         </scene>
-        <!--View Controller-->
+        <!--Current RunVC-->
         <scene sceneID="s9f-Z6-TqH">
             <objects>
-                <viewController id="kt2-J4-DA3" sceneMemberID="viewController">
+                <viewController id="kt2-J4-DA3" customClass="CurrentRunVC" customModule="Treads" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kBc-Qz-bGs"/>
                         <viewControllerLayoutGuide type="bottom" id="y42-fo-2PZ"/>
