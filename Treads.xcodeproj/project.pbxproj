@@ -32,6 +32,7 @@
 		F6244209221CE3B600409DE9 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F62441F7221CE3B600409DE9 /* Montserrat-Medium.ttf */; };
 		F624420A221CE3B600409DE9 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F62441F8221CE3B600409DE9 /* Montserrat-ExtraBoldItalic.ttf */; };
 		F624420C22235EDA00409DE9 /* CurrentRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F624420B22235EDA00409DE9 /* CurrentRunVC.swift */; };
+		F624420E222360E200409DE9 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F624420D222360E200409DE9 /* LocationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		F62441F7221CE3B600409DE9 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		F62441F8221CE3B600409DE9 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		F624420B22235EDA00409DE9 /* CurrentRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRunVC.swift; sourceTree = "<group>"; };
+		F624420D222360E200409DE9 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 		F62441E4221CE33500409DE9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F624420D222360E200409DE9 /* LocationVC.swift */,
 				F62441D1221CE17100409DE9 /* RunLogVC.swift */,
 				F62441CF221CE17100409DE9 /* BeginRunVC.swift */,
 				F624420B22235EDA00409DE9 /* CurrentRunVC.swift */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F624420E222360E200409DE9 /* LocationVC.swift in Sources */,
 				F62441D2221CE17100409DE9 /* RunLogVC.swift in Sources */,
 				F62441CE221CE17100409DE9 /* AppDelegate.swift in Sources */,
 				F624420C22235EDA00409DE9 /* CurrentRunVC.swift in Sources */,
