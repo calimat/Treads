@@ -33,6 +33,7 @@
 		F624420A221CE3B600409DE9 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F62441F8221CE3B600409DE9 /* Montserrat-ExtraBoldItalic.ttf */; };
 		F624420C22235EDA00409DE9 /* CurrentRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F624420B22235EDA00409DE9 /* CurrentRunVC.swift */; };
 		F624420E222360E200409DE9 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F624420D222360E200409DE9 /* LocationVC.swift */; };
+		F62442102223832300409DE9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F624420F2223832300409DE9 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		F62441F8221CE3B600409DE9 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		F624420B22235EDA00409DE9 /* CurrentRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRunVC.swift; sourceTree = "<group>"; };
 		F624420D222360E200409DE9 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
+		F624420F2223832300409DE9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		F62441E2221CE31F00409DE9 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F624420F2223832300409DE9 /* Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F624420E222360E200409DE9 /* LocationVC.swift in Sources */,
+				F62442102223832300409DE9 /* Extensions.swift in Sources */,
 				F62441D2221CE17100409DE9 /* RunLogVC.swift in Sources */,
 				F62441CE221CE17100409DE9 /* AppDelegate.swift in Sources */,
 				F624420C22235EDA00409DE9 /* CurrentRunVC.swift in Sources */,
