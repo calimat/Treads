@@ -218,6 +218,10 @@
                             <constraint firstItem="pDl-04-lwO" firstAttribute="top" secondItem="kBc-Qz-bGs" secondAttribute="bottom" constant="8" id="yyf-uh-v8K"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="sliderImageView" destination="022-FZ-jyf" id="rjY-CC-nQe"/>
+                        <outlet property="swipeBGImageView" destination="Jkd-Lx-2sO" id="AcF-GJ-XT6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uLe-KO-Mua" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
