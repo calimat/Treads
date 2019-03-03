@@ -74,9 +74,10 @@ class BeginRunVC: LocationVC {
         }
         
         mapView.userTrackingMode = .none
-        mapView.setRegion(centerMapOnPreviousRoute(locations: lastRun.locations), animated: true)
+        guard let locations = Run.getRun(byId: lastRun.id)?.locations else { return MKPolyline()}
+        mapView.setRegion(centerMapOnPreviousRoute(locations: locations), animated: true)
         
-        return MKPolyline(coordinates: coordinates, count: lastRun.locations.count)
+        return MKPolyline(coordinates: coordinates, count: locations.count)
         
     }
     
@@ -116,8 +117,6 @@ class BeginRunVC: LocationVC {
         lastRunCloseBtn.isHidden = true
         centerMapOnUserLocation()
     }
-    
-    
 }
 
 extension BeginRunVC : CLLocationManagerDelegate {
